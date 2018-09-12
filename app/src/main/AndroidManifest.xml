@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.srini.eventlogging">
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    package="com.example.srini.poslabscodingchallenge">
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OpeningActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,11 +19,6 @@
         </activity>
         <activity android:name=".DetailActivity">
         </activity>
-        <activity android:name=".CreateEventActivity">
-        </activity>
-
-        <service android:name=".MyService" />
-
     </application>
 
 </manifest>
